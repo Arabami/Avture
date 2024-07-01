@@ -1,0 +1,365 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 1rem 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  background-image: url('https://i0.wp.com/www.qhomemart.com/blog/wp-content/uploads/2022/05/background-ruang-tamu.jpg'); /* Add your background image URL here */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the hero section to full viewport height */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #1ebb84;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+.home {
+  background-image: url('home-icon.png');
+  background-size: 20px 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+
+/* Produk Sofa */
+.products {
+  background-image: url('https://wallpaperaccess.com/full/2076086.jpg');
+  background-size: 20px 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+
+.product-list {
+  padding: 50px; /* add some padding to make the background visible */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://wallpaperaccess.com/full/2076086.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-categories {
+  margin-bottom: 20px;
+}
+
+.product-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Beri jarak antar produk */
+}
+
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+  transition: transform 0.2s; /* Animasi saat hover */
+  min-width: 250px; /* Lebar minimum produk */
+}
+
+.product-item:hover {
+  transform: scale(1.05); /* Membesarkan saat dihover */
+}
+
+.product-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px; /* Membuat sudut gambar membulat */
+}
+
+.product-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-item .price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-item .normal-price {
+  font-size: 14px;
+  color: #666;
+  text-decoration: line-through;
+}
+
+.add-to-cart {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin-left: 5px; /* Jarak antara teks dan ikon */
+}
+
+/* Produk Table */
+.products {
+  background-image: url('https://wallpaperaccess.com/full/2076086.jpg');
+  background-size: 20px 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+
+.product-list {
+  padding: 50px; /* add some padding to make the background visible */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://wallpaperaccess.com/full/2076086.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-categories {
+  margin-bottom: 20px;
+}
+
+.product-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Beri jarak antar produk */
+}
+
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+  transition: transform 0.2s; /* Animasi saat hover */
+  min-width: 250px; /* Lebar minimum produk */
+}
+
+.product-item:hover {
+  transform: scale(1.05); /* Membesarkan saat dihover */
+}
+
+.product-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px; /* Membuat sudut gambar membulat */
+}
+
+.product-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-item .price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-item .normal-price {
+  font-size: 14px;
+  color: #666;
+  text-decoration: line-through;
+}
+
+.add-to-cart {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin-left: 5px; /* Jarak antara teks dan ikon */
+}
+
+.contacts {
+  background-image: url('contacts-icon.png');
+  background-size: 20px 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+
+.about-us {
+  background-image: url('https://wallpaperaccess.com/full/2076257.jpg');
+  background-size: 20px 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+
+.about-us {
+  background-image: url('https://www.hariannusantara.com/wp-content/uploads/2019/06/gambar-hitam-putih-pemandangan6.jpg');
+  padding: 50px; /* add some padding to make the background visible */
+}
+
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-icon svg {
+  fill: white;
+}
+
+.hero-content {
+  text-align: center;
+  margin-right: 3rem;
+  color: white; /* Add white text color to contrast with the background image */
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.explore-button {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i0.wp.com/www.qhomemart.com/blog/wp-content/uploads/2022/05/background-ruang-tamu.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Tambahkan gaya CSS Anda di sini */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header, .hero, .about, .product-list, .contact {
+  padding: 20px;
+}
+
+.description-text {
+  color: #ffffff; /* Ganti dengan warna yang Anda inginkan */
+  text-align: left;
+}
